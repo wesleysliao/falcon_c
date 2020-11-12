@@ -1,11 +1,11 @@
 // C interface for libnifalcon
 // 2020 Wesley Liao
 
-#include "falcon/core/FalconDevice.h"
-#include "falcon/core/FalconFirmware.h"
-#include "falcon/kinematic/FalconKinematicStamper.h"
-#include "falcon/firmware/FalconFirmwareNovintSDK.h"
-#include "falcon/grip/FalconGripFourButton.h"
+#include <falcon/core/FalconDevice.h>
+#include <falcon/core/FalconFirmware.h>
+#include <falcon/kinematic/FalconKinematicStamper.h>
+#include <falcon/firmware/FalconFirmwareNovintSDK.h>
+#include <falcon/grip/FalconGripFourButton.h>
 
 
 extern "C" {
